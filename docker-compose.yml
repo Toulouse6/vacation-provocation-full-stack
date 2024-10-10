@@ -1,0 +1,97 @@
+# docker-compose up -d --build
+# docker-compose up -d
+# docker-compose down
+# docker-compose push
+# docker-compose pull
+
+services:
+
+  # Database service: 
+  vacations-database:
+
+    # Image name to create from Dockerfile:
+    image: toulouse6/vacations-database-image:1.0
+
+    # Where is the location of the Dockerfile:
+    build: ./Database
+
+    # Container name: 
+    container_name: vacations-database-container
+
+    # On crash - what to do - restart unless manually stopped:
+    restart: unless-stopped
+
+    # Volumes:
+    volumes:
+      - vacations-db:/var/lib/mysql
+
+    # Environment Variables needed by MySQL Installation:
+    environment:
+      MYSQL_HOST: localhost
+      MYSQL_USER: Toulouse
+      MYSQL_PASSWORD: Adjiman
+      MYSQL_ROOT_PASSWORD: Adjiman # Needed by MySQL image.
+      MYSQL_DATABASE: vacations
+
+  # -------------------------------------------------------------------------------    
+
+  # Backend service:
+  vacations-backend:
+
+    # On which service we're depending on:
+    depends_on:
+      - vacations-database
+
+    # Image name to create from Dockerfile: 
+    image: toulouse6/vacations-backend-image:1.0
+
+    # Where is the location of the Dockerfile:
+    build: ./Backend
+
+    # Container name: 
+    container_name: vacations-backend-container
+
+    # On crash - what to do - restart unless manually stopped:
+    restart: unless-stopped
+
+    # Port binding:
+    ports:
+      - 4000:4000
+
+    # Environment Variables:
+    environment:
+      MYSQL_HOST: vacations-database # The container service name is the computer name in the network
+      MYSQL_USER: Toulouse
+      MYSQL_PASSWORD: Adjiman
+      MYSQL_DATABASE: vacations
+
+  # -------------------------------------------------------------------------------    
+
+  # Frontend service:
+  vacations-frontend:
+
+    # On which service we're depending on:
+    depends_on:
+      - vacations-backend
+
+    # Image name to create from Dockerfile: 
+    image: toulouse6/vacations-frontend-image:1.0
+
+    # Where is the location of the Dockerfile:
+    build: ./Frontend
+
+    # Container name: 
+    container_name: vacations-frontend-container
+
+    # On crash - what to do - restart unless manually stopped:
+    restart: unless-stopped
+
+    # Port binding:
+    ports:
+      - 3000:3000
+
+# -------------------------------------------------------------------------------    
+
+# Define named volumes:
+volumes:
+  vacations-db: # This named volume is used to persist database data.

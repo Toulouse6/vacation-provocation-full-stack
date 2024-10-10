@@ -1,0 +1,45 @@
+{
+    "name": "vacations",
+    "version": "1.0.0",
+    "description": "A React - Node.js Project by Tal Argaman",
+    "scripts": {
+        "start": "nodemon --exec ts-node src/app.ts --quiet",
+        "test": "mocha --require ts-node/register tests/**/*.test.ts --exit"
+    },
+    "keywords": [
+        "vacations",
+        "vacation provocation",
+        "tal argaman",
+        "toulouse adjiman"
+    ],
+    "author": "Tal Argaman",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.24.4",
+        "@types/chai": "^4.3.14",
+        "@types/cors": "^2.8.17",
+        "@types/express": "^4.17.21",
+        "@types/express-fileupload": "^1.4.4",
+        "@types/jsonwebtoken": "^9.0.5",
+        "@types/mocha": "^10.0.6",
+        "@types/node": "^20.11.10",
+        "@types/supertest": "^6.0.2",
+        "chai": "^4.4.1",
+        "mocha": "^10.3.0",
+        "sinon": "^11.0.0",
+        "supertest": "^6.3.4",
+        "ts-node": "^10.9.2"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.4.3",
+        "express": "^4.18.2",
+        "express-fileupload": "^1.4.3",
+        "express-rate-limit": "^7.1.5",
+        "joi": "^17.12.1",
+        "jsonwebtoken": "^9.0.2",
+        "mysql2": "^3.9.1",
+        "striptags": "^3.2.0",
+        "uploaded-file-saver": "^1.0.1"
+    }
+}
