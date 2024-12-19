@@ -9,7 +9,7 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 - **Email:** meetollie@gmail.com
 - **Password:** 12345678
 
-**Frontend version:** https://toulouse6.github.io/vacation-prov-frontend/
+- **Frontend version:** https://toulouse6.github.io/vacation-prov-frontend/
 ---
 
 **Technologies Used:**
