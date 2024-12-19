@@ -7,11 +7,27 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 <br><br>
 **Frontend version:** https://toulouse6.github.io/vacation-prov-frontend/
 
-**User Credentials (Frontend v):**
+---
+
+**Credentials Frontend Version**
+
+**User:**
+- **Email:** tal.argamanbib@gmail.com
+- **Password:** argaman
+
+**Admin:**
+- **Email:** meetollie@gmail.com
+- **Password:** 1234
+
+---
+
+**Credentials Full-Stack Version**
+
+**User:**
 - **Email:** tal.argamanbib@gmail.com
 - **Password:** 87654321
 
-**Admin Credentials:**
+**Admin:**
 - **Email:** meetollie@gmail.com
 - **Password:** 12345678
 
