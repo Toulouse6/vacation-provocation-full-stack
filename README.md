@@ -49,4 +49,4 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 
 ---
 
-**Author: Tal Argaman**
+**Author:** Tal Argaman
