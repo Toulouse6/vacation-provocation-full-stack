@@ -11,7 +11,7 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 
 **User Credentials:**
 - **Email:** tal.argamanbib@gmail.com
-- **Password:** argaman
+- **Password:** 87654321
 
 **Admin Credentials:**
 - **Email:** meetollie@gmail.com
