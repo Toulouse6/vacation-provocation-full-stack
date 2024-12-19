@@ -33,7 +33,7 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 
 ---
 
-**Technologies Used:**
+**Technologies:**
 
 - **Angular17**
 - **TypeScript**
@@ -46,5 +46,7 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 - **MySQL**
 
 - **Docker**
+
+---
 
 **Author: Tal Argaman**
