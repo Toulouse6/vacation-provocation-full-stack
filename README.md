@@ -11,20 +11,16 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 
 **Technologies Used:**
 
-**Frontend:**
 - **Angular17**
 - **TypeScript**
 - **CSS3**
 - **HTML5**
 
-**Backend:**
 - **Node.js**
 - **Express.js**
 
- **Database**
 - **MySQL**
 
-**Containerization:**
 - **Docker**
 
 ---
