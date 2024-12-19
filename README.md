@@ -24,8 +24,8 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
  **Database**
 - **MySQL**
 
-  **Containerization**
-  - **Docker**
+**Containerization**
+- **Docker**
 
 ---
 
