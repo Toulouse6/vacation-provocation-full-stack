@@ -1,4 +1,4 @@
-## Vacation Provocation (Full-stack):
+## Vacation Provocation (Full-stack)
 
 <img align="right" src="./Frontend/src/Assets/vacation-prov-screenshot.png" alt="Vacation-prov Screenshot" width="350">
 
