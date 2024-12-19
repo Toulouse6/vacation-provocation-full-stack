@@ -9,7 +9,7 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 - **Email:** meetollie@gmail.com
 - **Password:** 12345678
 
---
+---
 
 **Technologies Used:**
 
@@ -25,6 +25,6 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 
 - **Docker**
 
---
+---
 
 **Author**: Tal Argaman
