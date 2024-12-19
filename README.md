@@ -9,22 +9,22 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 - **Email:** meetollie@gmail.com
 - **Password:** 12345678
 
-### Technologies Used
+**Technologies Used:**
 
-**Frontend**
+**Frontend:**
 - **Angular17**
 - **TypeScript**
 - **CSS3**
 - **HTML5**
 
-**Backend**
+**Backend:**
 - **Node.js**
 - **Express.js**
 
  **Database**
 - **MySQL**
 
-**Containerization**
+**Containerization:**
 - **Docker**
 
 ---
