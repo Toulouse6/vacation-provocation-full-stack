@@ -9,7 +9,7 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 
 ---
 
-**Credentials Frontend Version**
+**Credentials Front-End**
 
 **User:**
 - **Email:** tal.argamanbib@gmail.com
@@ -21,7 +21,7 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 
 ---
 
-**Credentials Full-Stack Version**
+**Credentials Full-Stack**
 
 **User:**
 - **Email:** tal.argamanbib@gmail.com
