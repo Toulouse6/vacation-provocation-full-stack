@@ -36,7 +36,7 @@ If you have admin privileges, you'll also be able to add, edit, or remove vacati
 
 **Technologies:**
 
-- **Angular17**
+- **React JS**
 - **TypeScript**
 - **CSS3**
 - **HTML5**
